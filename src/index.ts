@@ -1,5 +1,7 @@
-import { utils } from './utils'
+import { utils } from './utils';
+import { canvas } from './canvas'
 
 export const okon = {
+    canvas,
     utils
 }
