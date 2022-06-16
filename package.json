@@ -1,0 +1,26 @@
+{
+  "name": "okon",
+  "version": "0.1.0",
+  "description": "Util tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "npx tsc && npx tsc ./index.ts && npx tsc ./index.ts --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukaszcholewka/okon.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "Łukasz Cholewka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukaszcholewka/okon/issues"
+  },
+  "homepage": "https://github.com/ukaszcholewka/okon#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
